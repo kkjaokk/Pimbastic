@@ -52,10 +52,10 @@ export default function AboutPage() {
             <div>
               <Image 
                 src="https://picsum.photos/600/400" 
-                alt="Foto do campus IFSULDEMINAS Machado"
+                alt="Mesa de poker em um cassino"
                 width={600}
                 height={400}
-                data-ai-hint="university campus"
+                data-ai-hint="poker casino"
                 className="rounded-lg shadow-lg"
               />
             </div>

@@ -50,10 +50,10 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <Image
               src="https://picsum.photos/200/50"
-              alt="BET365 Logo"
+              alt="Casino Logo"
               width={200}
               height={50}
-              data-ai-hint="bet365 logo"
+              data-ai-hint="casino logo"
               className="grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all duration-300"
             />
           </div>
@@ -91,10 +91,10 @@ export default function Home() {
           <div className="md:w-1/2">
              <Image
                 src="https://picsum.photos/600/400"
-                alt="Equipe Pimpastic em ambiente colaborativo"
+                alt="Ambiente de cassino com roleta"
                 width={600}
                 height={400}
-                data-ai-hint="collaborative development"
+                data-ai-hint="casino roulette"
                 className="rounded-lg shadow-lg"
               />
           </div>
@@ -113,9 +113,9 @@ export default function Home() {
       <section id="case-study" className="py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4">Case de Sucesso: BET365</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4">Case de Sucesso: Casino Royal</h2>
             <p className="text-muted-foreground mb-6">
-              Fomos escolhidos pela BET365 para desenvolver sua nova plataforma de apostas, um projeto que solidificou nossa expertise em sistemas de alta complexidade e segurança.
+              Fomos escolhidos pelo Casino Royal para desenvolver sua nova plataforma de apostas, um projeto que solidificou nossa expertise em sistemas de alta complexidade e segurança.
             </p>
             <Button asChild variant="outline">
               <Link href="/portfolio">Veja o Projeto em Detalhes</Link>

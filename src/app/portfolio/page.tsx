@@ -43,10 +43,10 @@ export default function PortfolioPage() {
             <CardHeader className="p-0">
                 <Image
                     src="https://picsum.photos/1200/500"
-                    alt="Dashboard da plataforma BET365"
+                    alt="Interior de um cassino luxuoso"
                     width={1200}
                     height={500}
-                    data-ai-hint="data dashboard"
+                    data-ai-hint="luxury casino"
                     className="w-full h-auto object-cover"
                 />
             </CardHeader>
@@ -54,13 +54,13 @@ export default function PortfolioPage() {
                 <div className="grid md:grid-cols-3 gap-12">
                     <div className="md:col-span-1">
                         <h2 className="text-2xl font-bold font-headline mb-2">Cliente</h2>
-                        <p className="text-lg font-semibold text-primary">BET365</p>
+                        <p className="text-lg font-semibold text-primary">Casino Royal</p>
                         <p className="text-muted-foreground">Uma das maiores e mais renomadas casas de apostas do mundo.</p>
                     </div>
                     <div className="md:col-span-2">
                         <h2 className="text-2xl font-bold font-headline mb-2">O Desafio</h2>
                         <p className="text-muted-foreground">
-                            A BET365 enfrentava a necessidade urgente de um novo site e sistema de apostas que fosse mais rápido, seguro e escalável para suportar sua crescente base de usuários global e a complexidade das apostas ao vivo.
+                            O Casino Royal enfrentava a necessidade urgente de um novo site e sistema de apostas que fosse mais rápido, seguro e escalável para suportar sua crescente base de usuários global e a complexidade das apostas ao vivo.
                         </p>
                     </div>
                 </div>
