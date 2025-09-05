@@ -1,6 +1,7 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { BadgeCheck, Handshake, ShieldCheck, Sparkles } from "lucide-react";
+import { BadgeCheck, Handshake, ShieldCheck, Sparkles, GitMerge, Layers, Activity } from "lucide-react";
 import Image from "next/image";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const values = [
   {
@@ -23,6 +24,24 @@ const values = [
     title: "Parceria Estratégica",
     description: "Trabalhamos lado a lado com nossos clientes para alcançar o sucesso mútuo."
   }
+];
+
+const governanceItems = [
+    {
+        icon: <GitMerge className="w-6 h-6 text-accent mr-4" />,
+        question: "Como sua empresa define governança de TI e como garantirá uma TI alinhada aos objetivos de negócio?",
+        answer: "Para nós, Governança de TI é a estrutura que garante que a tecnologia não apenas suporte, mas impulsione ativamente os objetivos de negócio. Alinhamos TI e negócio através de um planejamento estratégico conjunto, com KPIs compartilhados e comunicação constante entre as lideranças técnicas e de negócio. Cada projeto de tecnologia é iniciado com um 'business case' claro, assegurando que cada linha de código tenha um propósito estratégico."
+    },
+    {
+        icon: <Activity className="w-6 h-6 text-accent mr-4" />,
+        question: "Quais mecanismos de monitoramento de desempenho de TI serão adotados?",
+        answer: "Adotamos um sistema de monitoramento 360º em tempo real, utilizando ferramentas como Datadog e Grafana. Nossos dashboards monitoram desde a performance da infraestrutura (CPU, memória, latência de rede) até a experiência do usuário final (taxa de erros, tempo de carregamento de página) e métricas de negócio (transações por segundo, funil de conversão). Isso nos permite ser proativos, identificando e resolvendo problemas antes que impactem o cliente."
+    },
+    {
+        icon: <Layers className="w-6 h-6 text-accent mr-4" />,
+        question: "Como sua empresa propõe a integração de culturas Agile e DevOps à Governança de TI?",
+        answer: "Nossa governança é 'Agile-native'. Integramos Agile e DevOps ao incorporar a gestão de riscos e a conformidade diretamente no ciclo de desenvolvimento (DevSecOps). A automação via CI/CD é nosso pilar, garantindo que cada entrega seja rápida e segura. As decisões de governança são tomadas de forma colaborativa em cerimônias ágeis, envolvendo Product Owners, Tech Leads e especialistas em segurança, garantindo que a governança adicione valor e não se torne um gargalo."
+    }
 ];
 
 export default function AboutPage() {
@@ -79,8 +98,36 @@ export default function AboutPage() {
             </div>
         </div>
       </section>
-      
+
       <section className="py-20 md:py-28">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">Nossa Abordagem de Governança e Metodologia</h2>
+            <p className="text-muted-foreground mt-2 max-w-3xl mx-auto">
+              Como garantimos que nossa tecnologia, processos e cultura trabalhem em sinergia para entregar resultados excepcionais e seguros aos nossos clientes.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <Accordion type="single" collapsible className="w-full">
+              {governanceItems.map((item, index) => (
+                <AccordionItem value={`item-${index}`} key={index}>
+                  <AccordionTrigger className="text-left text-lg hover:no-underline">
+                    <div className="flex items-start">
+                      {item.icon}
+                      <span>{item.question}</span>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base text-muted-foreground pl-10">
+                    {item.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      </section>
+      
+      <section className="bg-secondary/50 py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">Nossos Valores</h2>
@@ -92,7 +139,7 @@ export default function AboutPage() {
             {values.map((value) => (
               <Card key={value.title} className="text-center">
                 <CardHeader>
-                  <div className="mx-auto w-fit p-3 rounded-full bg-secondary mb-3">
+                  <div className="mx-auto w-fit p-3 rounded-full bg-background mb-3">
                     {value.icon}
                   </div>
                   <CardTitle className="font-headline text-xl">{value.title}</CardTitle>
