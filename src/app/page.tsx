@@ -91,17 +91,17 @@ export default function Home() {
           <div className="md:w-1/2">
              <Image
                 src="https://picsum.photos/600/400"
-                alt="Ambiente de cassino com roleta"
+                alt="Fichas de poker e cartas em uma mesa de cassino"
                 width={600}
                 height={400}
-                data-ai-hint="casino roulette"
+                data-ai-hint="poker chips"
                 className="rounded-lg shadow-lg"
               />
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4">Inovação Nascida da Paixão por Tecnologia.</h2>
             <p className="text-muted-foreground mb-6">
-              Fundada em 2021 por talentos do IFSULDEMINAS, a Pimpastic nasceu para revolucionar a tecnologia por trás das apostas esportivas. Hoje, nossa missão é definir o padrão global de segurança e confiabilidade do setor.
+              Fundada em 2021 por talentos do IFSULDEMINAS, a Pimbastic nasceu para revolucionar a tecnologia por trás das apostas esportivas. Hoje, nossa missão é definir o padrão global de segurança e confiabilidade do setor.
             </p>
             <Button asChild variant="outline">
               <Link href="/about">Conheça Nossa História</Link>
@@ -128,7 +128,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-20 text-center">
           <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4">Pronto para Elevar o Nível da Sua Plataforma?</h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-            Vamos conversar sobre como a Pimpastic pode ser a parceira tecnológica ideal para o seu sucesso.
+            Vamos conversar sobre como a Pimbastic pode ser a parceira tecnológica ideal para o seu sucesso.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
             <Link href="/contact">Entre em Contato</Link>

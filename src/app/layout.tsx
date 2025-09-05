@@ -5,7 +5,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'BetSecure | Pimpastic Company LTDA',
+  title: 'BetSecure | Pimbastic Company LTDA',
   description: 'Engenharia de Software de Elite para o Futuro das Apostas Esportivas.',
   keywords: ['apostas esportivas', 'desenvolvimento de software', 'plataforma de apostas', 'segurança', 'escalabilidade']
 };

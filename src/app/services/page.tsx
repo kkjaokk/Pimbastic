@@ -53,14 +53,14 @@ export default function ServicesPage() {
             {services.map((service, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="grid md:grid-cols-2">
-                  <div className="p-8 md:p-10 bg-white">
-                    <h2 className="text-2xl md:text-3xl font-bold font-headline mb-4">{service.title}</h2>
+                  <div className="p-8 md:p-10 bg-card text-card-foreground">
+                    <h2 className="text-2xl md:text-3xl font-bold font-headline mb-4 text-primary">{service.title}</h2>
                     <p className="text-muted-foreground mb-6">{service.description}</p>
                     <ul className="space-y-3">
                       {service.features.map((feature, fIndex) => (
                         <li key={fIndex} className="flex items-start">
                           <CheckCircle className="w-5 h-5 text-accent mr-3 mt-1 flex-shrink-0" />
-                          <span>{feature}</span>
+                          <span className="text-foreground/90">{feature}</span>
                         </li>
                       ))}
                     </ul>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PimpasticLogo } from '@/components/logo';
+import { PimbasticLogo } from '@/components/logo';
 import { Linkedin } from 'lucide-react';
 
 const navLinks = [
@@ -15,7 +15,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <PimpasticLogo />
+            <PimbasticLogo />
             <p className="mt-2 text-sm text-muted-foreground">Engenharia de Software de Elite para Apostas Esportivas.</p>
           </div>
           <div className="md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -50,8 +50,8 @@ export function Footer() {
               <h3 className="font-semibold font-headline text-primary mb-4">Contato</h3>
                <ul className="space-y-2">
                 <li>
-                  <a href="mailto:contato@pimpastic.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                    contato@pimpastic.com
+                  <a href="mailto:contato@pimbastic.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    contato@pimbastic.com
                   </a>
                 </li>
               </ul>
@@ -66,7 +66,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Pimpastic Company LTDA. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Pimbastic Company LTDA. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

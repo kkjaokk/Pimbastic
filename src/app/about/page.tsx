@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold font-headline mb-4">Origem e Fundação</h2>
               <p className="text-muted-foreground mb-4">
-                A Pimpastic Company LTDA foi fundada em 2021 por um grupo de estudantes visionários do curso Técnico em Informática do IFSULDEMINAS, campus Machado. O que começou como um projeto acadêmico rapidamente evoluiu para uma missão: resolver os complexos desafios tecnológicos do mercado de apostas esportivas.
+                A Pimbastic Company LTDA foi fundada em 2021 por um grupo de estudantes visionários do curso Técnico em Informática do IFSULDEMINAS, campus Machado. O que começou como um projeto acadêmico rapidamente evoluiu para uma missão: resolver os complexos desafios tecnológicos do mercado de apostas esportivas.
               </p>
               <p className="text-muted-foreground">
                 Essa origem humilde e autêntica é a base da nossa cultura, que valoriza o conhecimento técnico, a colaboração e a busca incansável por soluções inovadoras e seguras.
@@ -52,10 +52,10 @@ export default function AboutPage() {
             <div>
               <Image 
                 src="https://picsum.photos/600/400" 
-                alt="Mesa de poker em um cassino"
+                alt="Time de desenvolvimento colaborando"
                 width={600}
                 height={400}
-                data-ai-hint="poker casino"
+                data-ai-hint="development team"
                 className="rounded-lg shadow-lg"
               />
             </div>

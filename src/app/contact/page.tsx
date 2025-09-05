@@ -23,8 +23,8 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-accent" />
                   <div>
                     <h3 className="font-semibold">E-mail</h3>
-                    <a href="mailto:contato@pimpastic.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      contato@pimpastic.com
+                    <a href="mailto:contato@pimbastic.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      contato@pimbastic.com
                     </a>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold">LinkedIn</h3>
                     <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                      pimpastic-company
+                      pimbastic-company
                     </a>
                   </div>
                 </div>

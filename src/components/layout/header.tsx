@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { PimpasticLogo } from '@/components/logo';
+import { PimbasticLogo } from '@/components/logo';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
@@ -37,7 +37,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <PimpasticLogo />
+          <PimbasticLogo />
         </Link>
         
         <nav className="hidden md:flex items-center gap-6">
@@ -62,7 +62,7 @@ export function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center border-b pb-4">
                   <Link href="/" onClick={() => setMenuOpen(false)}>
-                    <PimpasticLogo />
+                    <PimbasticLogo />
                   </Link>
                    <Button variant="ghost" size="icon" onClick={() => setMenuOpen(false)}>
                       <X className="h-6 w-6" />

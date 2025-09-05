@@ -43,10 +43,10 @@ export default function PortfolioPage() {
             <CardHeader className="p-0">
                 <Image
                     src="https://picsum.photos/1200/500"
-                    alt="Interior de um cassino luxuoso"
+                    alt="Luzes de neon em um cassino"
                     width={1200}
                     height={500}
-                    data-ai-hint="luxury casino"
+                    data-ai-hint="casino neon"
                     className="w-full h-auto object-cover"
                 />
             </CardHeader>
@@ -68,7 +68,7 @@ export default function PortfolioPage() {
                 <div className="border-t my-12"></div>
 
                 <div>
-                    <h2 className="text-3xl font-bold font-headline mb-6 text-center">A Solução Pimpastic</h2>
+                    <h2 className="text-3xl font-bold font-headline mb-6 text-center">A Solução Pimbastic</h2>
                     <p className="text-lg text-muted-foreground max-w-4xl mx-auto text-center">
                         Desenvolvemos uma arquitetura de microsserviços de ponta, com um front-end moderno construído em Next.js para máxima performance e um back-end robusto em Go para processamento de alta velocidade. O foco principal foi em protocolos de segurança de última geração e otimização de performance de banco de dados para garantir uma experiência de apostas em tempo real sem interrupções.
                     </p>
